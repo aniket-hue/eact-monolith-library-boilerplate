@@ -1,4 +1,4 @@
-# React Monolith Library Boilerplate
+# React Monorepo Library Boilerplate
 
 
 This react library boilerplate uses the following:
