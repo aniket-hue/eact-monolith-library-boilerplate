@@ -1,0 +1,32 @@
+{
+  "name": "@react-core/box",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": "This is a sample box component.",
+  "author": "Aniket Saxena <aniketsaxena1998@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index",
+  "peerDependencies": {
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "@types/styled-components": "^5.1.13",
+    "styled-components": "^5.3.5"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "dist/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:aniket-hue/eact-monolith-library-boilerplate.git"
+  },
+  "scripts": {
+    "tsc": "tsc"
+  }
+}
