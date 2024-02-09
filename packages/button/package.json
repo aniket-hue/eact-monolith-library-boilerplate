@@ -1,5 +1,5 @@
 {
-  "name": "@react-core/button",
+  "name": "@react-monorepo-library-boilerplate/button",
   "version": "1.0.0",
   "type": "commonjs",
   "description": "This is a sample button component.",

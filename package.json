@@ -1,9 +1,10 @@
 {
-  "name": "react-core",
+  "name": "react-monorepo-library-boilerplate",
   "version": "1.0.0",
   "description": "",
-  "private": true,
+  "private": false,
   "type": "module",
+  "keywords": ["react", "monorepo", "library", "boilerplate", "next.js"],
   "license": "MIT",
   "engines": {
     "node": ">=16"

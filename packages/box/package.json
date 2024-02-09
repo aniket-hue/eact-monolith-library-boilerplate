@@ -1,5 +1,5 @@
 {
-  "name": "@react-core/box",
+  "name": "@react-monorepo-library-boilerplate/box",
   "version": "1.0.0",
   "type": "commonjs",
   "description": "This is a sample box component.",
