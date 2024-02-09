@@ -1,6 +1,6 @@
 {
   "name": "@react-core/button",
-  "version": "1.0.6",
+  "version": "1.0.0",
   "type": "commonjs",
   "description": "This is a sample button component.",
   "author": "Aniket Saxena <aniketsaxena1998@gmail.com>",
