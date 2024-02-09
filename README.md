@@ -1,5 +1,6 @@
 # React Monolith Library Boilerplate
 
+
 This react library boilerplate uses the following:
 
 - [Typescript](https://www.typescriptlang.org/)
@@ -9,11 +10,30 @@ This react library boilerplate uses the following:
 - [Storybook](https://storybook.js.org/)
 - [Lerna](https://lerna.js.org/)
 
-## Setup
 
-1. Edit the `package.json` file. Set you app's name, description, version, author, homepage, bugs, and repository fields with the correct information.
-1. Run `yarn` to add all the project's dependencies.
-1. You package.json file version should always be 0.0.0 since Semantic Release will automatically set this upon publishing.
+
+## Creating an App
+
+
+To create a new app, you may choose one of the following methods:
+
+### npx
+
+```sh
+npx create-monorepo-react-library-boilerplate my-app
+```
+
+### npm
+
+```sh
+npm init create-monorepo-react-library-boilerplate my-app
+```
+
+### Yarn
+
+```sh
+yarn create monorepo-react-library-boilerplate my-app
+```
 
 ## Basic Folder Structure
 
