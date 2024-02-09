@@ -2,7 +2,7 @@
   "name": "create-monorepo-react-library-boilerplate",
   "version": "1.0.0",
   "description": "",
-  "private": false,
+  "private": true,
   "type": "module",
   "keywords": ["react", "monorepo", "library", "boilerplate", "next.js"],
   "license": "MIT",
