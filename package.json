@@ -1,11 +1,16 @@
 {
-  "name": "react-monorepo-library-boilerplate",
+  "name": "create-monorepo-react-library-boilerplate",
   "version": "1.0.0",
   "description": "",
   "private": false,
   "type": "module",
   "keywords": ["react", "monorepo", "library", "boilerplate", "next.js"],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:aniket-hue/monorepo-react-library-boilerplate.git"
+  },
+  "bin": "./bin/create.js",
   "engines": {
     "node": ">=16"
   },
