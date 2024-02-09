@@ -26,7 +26,7 @@ npx create-monorepo-react-library-boilerplate my-app
 ### npm
 
 ```sh
-npm init create-monorepo-react-library-boilerplate my-app
+npm init monorepo-react-library-boilerplate my-app
 ```
 
 ### Yarn
