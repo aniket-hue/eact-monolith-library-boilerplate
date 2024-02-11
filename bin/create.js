@@ -47,7 +47,7 @@ const examplePackageJSON = JSON.parse(
 );
 
 packageJSON.name = repoName;
-examplePackageJSON.name = repoName;
+examplePackageJSON.name = `@${repoName}/example`;
 fs.writeFileSync(
   `./${repoName}/package.json`,
   JSON.stringify(packageJSON, null, 2)

@@ -1,28 +1,23 @@
 {
   "name": "@create-monorepo-react-library-boilerplate/example",
   "version": "1.0.0",
-  "type": "commonjs",
-  "description": "This is a sample box component.",
-  "author": "Aniket Saxena <aniketsaxena1998@gmail.com>",
-  "homepage": "",
-  "license": "ISC",
-  "main": "dist/index.js",
-  "module": "dist/index.esm.js",
-  "types": "dist/index",
-  "peerDependencies": {
-    "styled-components": "^5.3.5"
+  "description": "",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
   },
-  "devDependencies": {
-    "@types/styled-components": "^5.1.13",
-    "styled-components": "^5.3.5"
-  },
-  "directories": {
-    "lib": "lib"
-  },
-  "files": [
-    "dist/"
-  ],
   "scripts": {
-    "build": "rollup -c ../../rollup.config.js"
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "devDependencies": {},
+  "files": [
+    "dist"
+  ]
 }
