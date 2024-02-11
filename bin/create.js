@@ -35,12 +35,26 @@ const _dirname = path.resolve();
 const packageDir = path.join(_dirname, repoName);
 
 const packageJsonFile = path.join(packageDir, "package.json");
+const examplePackageJsonFile = path.join(
+  packageDir,
+  "./packages/example/package.json"
+);
 
 // Setting default package.json
 const packageJSON = JSON.parse(fs.readFileSync(packageJsonFile, "utf8"));
+const examplePackageJSON = JSON.parse(
+  fs.readFileSync(examplePackageJsonFile, "utf8")
+);
+
 packageJSON.name = repoName;
+examplePackageJSON.name = repoName;
 fs.writeFileSync(
   `./${repoName}/package.json`,
+  JSON.stringify(packageJSON, null, 2)
+);
+
+fs.writeFileSync(
+  `./${repoName}/packages/example/package.json`,
   JSON.stringify(packageJSON, null, 2)
 );
 

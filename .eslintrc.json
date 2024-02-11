@@ -1,0 +1,41 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "es2020": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "extends": [
+    "react-app",
+    "eslint:recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
+    "prettier"
+  ],
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["src"],
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    }
+  },
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "rules": {
+    "@typescript-eslint/no-empty-interface": 1,
+    "react/react-in-jsx-scope": 0,
+    "@typescript-eslint/ban-types": 0,
+    "react/jsx-key": 2,
+    "no-unused-vars": 1,
+    "@typescript-eslint/ban-ts-comment": 0,
+    "react/prop-types": 0,
+    "@typescript-eslint/no-explicit-any": 0,
+    "react-hooks/exhaustive-deps": 0,
+    "semi": ["error", "always"]
+  }
+}

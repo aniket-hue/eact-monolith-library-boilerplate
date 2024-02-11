@@ -1,5 +1,5 @@
 {
-  "name": "@monorepo-react-library-boilerplate/box",
+  "name": "@create-monorepo-react-library-boilerplate/example",
   "version": "1.0.0",
   "type": "commonjs",
   "description": "This is a sample box component.",
@@ -23,6 +23,6 @@
     "dist/"
   ],
   "scripts": {
-    "tsc": "tsc"
+    "build": "rollup -c ../../rollup.config.js"
   }
 }
