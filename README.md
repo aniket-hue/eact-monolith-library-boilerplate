@@ -7,8 +7,7 @@ This react library boilerplate uses the following:
 - [Rollup](https://rollupjs.org/guide/en/)
 - [Prettier](https://prettier.io/)
 - [ESLint](https://eslint.org/)
-- [Storybook](https://storybook.js.org/)
-- [Lerna](https://lerna.js.org/)
+- [Turbo](https://turbo.build/)
 
 
 
