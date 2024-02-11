@@ -48,6 +48,7 @@ const examplePackageJSON = JSON.parse(
 
 packageJSON.name = repoName;
 examplePackageJSON.name = `@${repoName}/example`;
+
 fs.writeFileSync(
   `./${repoName}/package.json`,
   JSON.stringify(packageJSON, null, 2)
@@ -55,7 +56,7 @@ fs.writeFileSync(
 
 fs.writeFileSync(
   `./${repoName}/packages/example/package.json`,
-  JSON.stringify(packageJSON, null, 2)
+  JSON.stringify(examplePackageJSON, null, 2)
 );
 
 // Removing git
