@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index",
   "license": "MIT",
   "engines": {
     "node": ">=18"
   },
   "scripts": {
+    "build": "rollup -c ../../rollup.config.js"
   },
   "workspaces": [
     "packages/*"
